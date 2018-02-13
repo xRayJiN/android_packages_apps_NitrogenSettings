@@ -368,40 +368,49 @@
     <string name="action_entry_default_action">Impostazioni predefinite</string>
     <string name="action_entry_select_app">Seleziona applicazione</string>
     <string name="action_entry_custom_action">Seleziona azione personalizzata</string>
-   
+    <string name="action_value_default_action" translatable="false">default</string>
+    <string name="action_value_select_app" translatable="false">app</string>
+    <string name="action_value_custom_action" translatable="false">custom</string>
+    <string name="action_value_back" translatable="false">task_back</string>
+    <string name="action_value_home" translatable="false">task_home</string>
+    <string name="action_value_search_assist" translatable="false">task_assist</string>
+    <string name="action_value_recent_apps" translatable="false">task_recents</string>
+    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
+    <string name="action_value_menu" translatable="false">task_menu</string>
+
     <!-- Fling -->
     <string name="fling_settings">Impostazioni Fling</string>
-    <string name="fling_settings_summary">Una barra di navigazione basata su gesti davvero unica e completamente personalizzabile</string>
+    <string name="fling_settings_summary">A very unique and fully-customizable gesture-based navigation bar</string>
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">Abilita Fling</string>
-    <string name="fling_back_home_policy">Indietro e Home devono essere impostati in ogni momento. Per modificare l\'assegnazione di indietro o home, imposta prima l\'assegnazione desiderata</string>
-    <string name="fling_split_bar_policy">Quando è assegnata solamente un\'azione a destra o a sinistra, l\'azione viene applicata a tutta la barra</string>
-    <string name="fling_def_summary">Nessuna azione impostata</string>
-    <string name="fling_swipe_actions">Gesti scorrimento</string>
-    <string name="fling_tap_actions">Gesti al tocco</string>
-    <string name="fling_short_swipe_right">Scorrimento breve verso destra</string>
-    <string name="fling_short_swipe_left">Scorrimento breve verso sinistra</string>
-    <string name="fling_long_swipe_right">Scorrimento lungo verso destra</string>
-    <string name="fling_long_swipe_left">Scorrimento lungo verso sinistra</string>
-    <string name="fling_right_up_swipe">Scorrimento verso l\'alto a destra</string>
-    <string name="fling_left_up_swipe">Scorrimento verso l\'alto a sinistra</string>
-    <string name="fling_single_tap">Singolo tocco a destra</string>
-    <string name="fling_double_tap">Doppio tocco a destra</string>
-    <string name="fling_long_press">Pressione prolungata a destra</string>
-    <string name="fling_single_left_tap">Singolo tocco a sinistra</string>
-    <string name="fling_double_left_tap">Doppio tocco a sinistra</string>
-    <string name="fling_long_left_press">Pressione prolungata a sinistra</string>
-    <string name="long_swipe_portrait_title">Verticale</string>
-    <string name="long_swipe_landscape_title">Orizzontale</string>
-    <string name="portrait_right_swipe_title">Scorrimento verticale destro</string>
-    <string name="portrait_left_swipe_title">Scorrimento verticale sinistro</string>
-    <string name="landscape_right_swipe_title">Scorrimento orizzontale destro</string>
-    <string name="landscape_left_swipe_title">Scorrimento orizzontale sinistro</string>
-    <string name="vertical_up_swipe_title">Scorrimento verticale in alto</string>
-    <string name="vertical_down_swipe_title">Scorrimento verticale verso in basso</string>
-    <string name="up_swipe_title">Scorrimento in alto</string>
-    <string name="down_swipe_title">Scorrimento in basso</string>
-    <string name="long_swipe_reset">Ripristina</string>
+    <string name="fling_back_home_policy">Indietro e Home sono sempre attivi.Per cambiare un asssegnamento a indietro o home, seleziona prima l'impostazione desiderata.\n\nImpostare un azione per il doppio tocco potrebbe creare un rallentamento nel tocco singolo.</string>
+    <string name="fling_split_bar_policy">Quando sono applicate solo azioni a destra o sinistra, queste azioni verranno applicate a tutta la barra.</string>
+    <string name="fling_def_summary">Nessun azione impostata</string>
+    <string name="fling_swipe_actions">Gesto scorri</string>
+    <string name="fling_tap_actions">Gesto tocco</string>
+    <string name="fling_short_swipe_right">Scorri verso destra corto</string>
+    <string name="fling_short_swipe_left">Scorri verso sinistra corto</string>
+    <string name="fling_long_swipe_right">Scorri verso destra lungo</string>
+    <string name="fling_long_swipe_left">Scorri verso sinistra lungo</string>
+    <string name="fling_right_up_swipe">Scorri dal lato destro</string>
+    <string name="fling_left_up_swipe">Scorri dal lato sinistro</string>
+    <string name="fling_single_tap">Tocco destro singolo</string>
+    <string name="fling_double_tap">Tocco destro doppio</string>
+    <string name="fling_long_press">Tocco destro prolungato</string>
+    <string name="fling_single_left_tap">Tocco sinistro singolo</string>
+    <string name="fling_double_left_tap">Tocco sinistro doppio</string>
+    <string name="fling_long_left_press">Tocco sinistro prolungato</string>
+    <string name="long_swipe_portrait_title">Portrait</string>
+    <string name="long_swipe_landscape_title">Landscape</string>
+    <string name="portrait_right_swipe_title">Portrait right swipe</string>
+    <string name="portrait_left_swipe_title">Portrait left swipe</string>
+    <string name="landscape_right_swipe_title">Landscape right swipe</string>
+    <string name="landscape_left_swipe_title">Landscape left swipe</string>
+    <string name="vertical_up_swipe_title">Vertical up swipe</string>
+    <string name="vertical_down_swipe_title">Vertical down swipe</string>
+    <string name="up_swipe_title">Scorri verso l'alto</string>
+    <string name="down_swipe_title">Scorri verso il basso</string>
+    <string name="long_swipe_reset">Reset</string>
     <string name="fling_advanced">Avanzate</string>
     <string name="fling_long_swipe_title">Soglia di scorrimento</string>
     <string name="fling_long_swipe_summary">Regola la soglia dello scorrimento lungo basata sull\'altezza o la larghezza del Fling</string>
@@ -462,9 +471,11 @@
     <!-- SmartBar -->
     <string name="smartbar_category">SmartBar</string>
     <string name="smartbar_settings_title">Impostazioni Smartbar</string>
+	<string name="smartbar_settings_summary">Barra di navigazione completamente personalizzabile</string>
     <string name="smartbar_editor_title">Attiva o disattiva modifica pulsanti</string>
     <string name="smartbar_editor_summary">Tieni premuto e trascina per cambiare la posizione. Tieni premuto a lungo per visualizzare il menù di modifica. La posizione del pulsante potrebbe cambiare durante la visualizzazione del menù.</string>
-    <string name="smartbar_context_menu_position_title">Posizione pulsanti contestuali</string>
+    <string name="smartbar_help_policy_notice_summary">In modalità editor, premere a metà e trascinare un pulsante per cambiarne la posizione o premere a lungo un pulsante per visualizzare il menu di modifica. La posizione del pulsante può essere cambiata mentre è visualizzato il menu.\n\nImpostare una doppia azione ritarderà il tocco singolo.</string>
+	<string name="smartbar_context_menu_position_title">Posizione pulsanti contestuali</string>
     <string name="smartbar_context_menu_position_summary">Regola la posizione dei pulsanti contestuali, come il pulsante menù e il selettore della tastiera</string>
     <string name="smartbar_right">Destra</string>
     <string name="smartbar_left">Sinistra</string>
@@ -518,7 +529,7 @@
     <string name="hardware_keys_double_tap_title">Azione doppio tocco</string>
     <string name="hardware_keys_category">Tasti fisici</string>
     <string name="hardware_keys_disable_title">Disabilita i tasti fisici</string>
-  
+
     <!-- ANBI -->
     <string name="anbi_title">Tocco accidentale</string>
     <string name="anbi_summary">Impedire l\'interazione con i pulsanti di navigazione mentre si tocca lo schermo</string>
@@ -531,6 +542,23 @@
     <string name="qs_footer_warnings_title">Avvisi footer</string>
     <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello impostazioni rapide quando la rete viene controllata da applicazioni esterne o vpn</string>
 
-    <string name="qs_tile_title_visibility_title">Titoli tile</string>
-    <string name="qs_tile_title_visibility_summary">Mostra i titoli dei tile nelle impostazioni rapide</string>
+    <string name="qs_tile_title_visibility_title">Titoli dei tile nel pannello</string>
+    <string name="qs_tile_title_visibility_summary">Mostra i titoli dei tile nel pannello delle impostazioni rapide</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Suono di notifica meno frequente</string>
+    <string name="less_notification_sounds_summary">Riproduci il suono di notifica solo una volta per periodo di tempo impostato</string>
+    <string name="less_notification_sounds_default">Impostazione base</string>
+    <string name="less_notification_sounds_3s">Ogni 3 secondi</string>
+    <string name="less_notification_sounds_5s">Ogni 5 secondi</string>
+    <string name="less_notification_sounds_10s">Ogni 10 secondi</string>
+    <string name="less_notification_sounds_15s">Ogni 15 secondi</string>
+    <string name="less_notification_sounds_30s">Ogni 30 secondi</string>
+    <string name="less_notification_sounds_45s">Ogni 45 secondi</string>
+    <string name="less_notification_sounds_1m">Ogni minuto</string>
+    <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
+    <string name="less_notification_sounds_5m">Ogni 5 minuti</string>
+
+    <string name="face_auto_unlock_title">Sblocco con il viso</string>
+    <string name="face_auto_unlock_summary">Sblocca il telefono con il tuo viso non appena lo schermo si accende, senza scorrere con le dita.</string>
 </resources>
